@@ -1,0 +1,156 @@
+/* Style général de la page */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Titre principal */
+h1 {
+    color: #2c3e50;
+    margin-bottom: 25px;
+    font-size: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Conteneur du formulaire sous forme de carte moderne */
+form {
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    box-sizing: border-box;
+}
+
+/* Espacement des paragraphes du formulaire */
+form p {
+    margin: 0 0 20px 0;
+}
+
+/* Style du menu déroulant (select) */
+select {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    background-color: #f8fafc;
+    font-size: 16px;
+    color: #334155;
+    outline: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+select:focus {
+    border-color: #3b82f6;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+/* Style des boutons radio et du texte M / F */
+input[type="radio"] {
+    accent-color: #3b82f6;
+    cursor: pointer;
+    transform: scale(1.1);
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+/* Espacement et style autour des boutons radio */
+input[type="radio"]:first-of-type {
+    margin-left: 0;
+}
+
+body form {
+    color: #334155;
+    font-weight: 600;
+}
+
+/* Style des boutons de validation et d'effacement */
+input[type="submit"], input[type="reset"] {
+    width: 48%;
+    padding: 12px 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-sizing: border-box;
+}
+
+/* Bouton Générer */
+input[type="submit"] {
+    background-color: #3b82f6;
+    color: white;
+    margin-right: 2%;
+}
+
+input[type="submit"]:hover {
+    background-color: #2563eb;
+    transform: translateY(-1px);
+}
+
+/* Bouton Effacer */
+input[type="reset"] {
+    background-color: #e2e8f0;
+    color: #475569;
+}
+
+input[type="reset"]:hover {
+    background-color: #cbd5e1;
+}
+/* Style du conteneur de résultat (carte) */
+.result-card {
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Texte descriptif dans la carte de résultat */
+.result-card p {
+    color: #64748b;
+    font-size: 16px;
+    margin: 0 0 10px 0;
+}
+
+/* Nom affiché en gros */
+.result-card h2 {
+    color: #2563eb;
+    font-size: 26px;
+    margin: 0 0 25px 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* Bouton de retour */
+.btn-retour {
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    background-color: #e2e8f0;
+    color: #475569;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    box-sizing: border-box;
+    transition: all 0.2s ease;
+}
+
+.btn-retour:hover {
+    background-color: #cbd5e1;
+}
